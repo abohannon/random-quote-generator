@@ -1,0 +1,33 @@
+body {
+  background-color:rgb(195, 144, 174);
+  font-family: 'Raleway', sans-serif;
+}
+
+footer {
+  text-align: center;
+  color:white;
+}
+
+.jumbotron {
+  background-color:white;
+  margin-top:7rem;
+  margin-bottom:1rem;
+  padding:4rem 4rem;
+  color:rgb(195, 144, 174);
+
+}
+
+.quote-btn {
+  cursor: auto;
+  background-color:rgb(195, 144, 174);
+  color:white;
+}
+
+.fa-twitter-square {
+  color:rgb(195, 144, 174);
+  cursor:auto;
+}
+
+.button-row {
+  margin-top:3rem;
+}
