@@ -8,12 +8,22 @@ footer {
   color:white;
 }
 
-.jumbotron {
+a:link {
+  text-decoration: none;
+}
+
+.title {
+  padding-bottom:2rem;
+  font-weight: 800;
+}
+
+.quote-box {
   background-color:white;
   margin-top:7rem;
   margin-bottom:1rem;
   padding:4rem 4rem;
   color:rgb(195, 144, 174);
+  border-radius:3px;
 
 }
 
@@ -29,5 +39,14 @@ footer {
 }
 
 .button-row {
-  margin-top:3rem;
+  margin-top:2rem;
+  display:block;
+}
+
+.footer-name {
+  color:white;
+}
+
+.footer-name:hover {
+  color:rgb(235, 235, 235);
 }

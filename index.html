@@ -7,35 +7,45 @@
     <!-- CSS -->
     <!-- Boostrap v4 alpha -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <!-- End Styles -->
     <title>Adam's Random Quote Machine</title>
   </head>
 <body>
 <div class="container">
-  <div class="jumbotron">
-      <p id="quote" class="lead text-center"><i class="fa fa-quote-left"></i> Facts are stupid things.</p>
+  <div class="row">
+  <div class="col-10 offset-1 col-lg-8 offset-lg-2 quote-box">
+    <h2 class="text-center title">Shit Trump Said</h2>
+      <p class="lead text-center"><i class="fa fa-quote-left"></i> <span id="quote">I don't think Ivanka would do that, although she does have a very nice figure. I've said if Ivanka weren't my daughter, perhaps I'd be dating her.</span></p>
       <p></p>
-      <p id="author" class="text-right">- Ronald Reagan</p>
-      <div class="row button-row">
-      <div class="col-sm-12">
-        <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+      <p class="text-right">- <span id="author">Donald Trump</span></p>
+      <div class="row">
+      <div class="col-lg-12 button-row">
+
+        <a id="tweet-quote" title="Tweet this quote!" target="_blank" href="http://twitter.com/share?text=&quot;I've said if Ivanka weren't my daughter, perhaps I'd be dating her.&quot; - Donald Trump&hashtags=shittrumpsaid"><i class="fa fa-twitter-square fa-3x"></i></a>
+
         <a href="#"><button class="btn btn-default float-right quote-btn">New Quote</button></a>
       </div>
       </div>
 
   </div>
+  </div>
   <footer>
-    <p>by adam</p>
+    <a href="https://github.com/abohannon" target="_blank"><p class="footer-name">by adam</p></a>
   </footer>
 </div>
 
 
 
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+<script src="scripts.js"></script>
+
+
+
 </body>
 </html>
