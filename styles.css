@@ -27,6 +27,10 @@ a:link {
 
 }
 
+.lead {
+  font-size:1.75rem;
+}
+
 .quote-btn {
   cursor: auto;
   background-color:rgb(195, 144, 174);
