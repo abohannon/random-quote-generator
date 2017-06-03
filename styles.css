@@ -55,6 +55,10 @@ a:link {
 }
 
 @media (max-width: 600px) {
+  .quote-box {
+    margin-top:2rem;
+  }
+
   .lead {
     font-size: 1rem;
   }
