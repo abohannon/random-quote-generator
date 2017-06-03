@@ -1,5 +1,11 @@
-<p>A random quote generator for FreeCodeCamp.</p>
+<h1>A random quote generator for FreeCodeCamp.</h1>
 
-<p>Bootstrap 4</p>
-<p>Ajax</p>
-<p>JSON</p>
+<h3>Practice using:</h3>
+<ul>
+  <li>Bootstrap 4</li>
+  <li>Ajax</li>
+  <li>JSON</li>
+  <li>JQuery</li>
+  <li>JQuery UI</li>
+  <li>JavaScript</li>
+</ul>
