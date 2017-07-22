@@ -3,9 +3,9 @@ $(document).ready(function() {
 var colors = ['#1abc9c', '#2ecc71', '#3498db', '#9b59b6', '#34495e', '#e67e22', '#e74c3c', '#c0392b', "#f39c12", "#BDBB99", "#77B1A9", "#73A857"];
 
    $(".quote-btn").on("click", function(){
-  var quotesList =  $.getJSON("https://gist.githubusercontent.com/abohannon/a0187309c729f04d571b74cfca893dac/raw/049894889ae7fc84302cbe6d92d430cb007956d2/trump-quote2",
+   var quotesList =  $.getJSON("https://gist.githubusercontent.com/abohannon/a0187309c729f04d571b74cfca893dac/raw/fc59306cc5c0b1a1177179732b67231447614050/trump-quote2",
     function(json){
-    i = Math.floor(Math.random() * (30)); // Randomize JSON items
+    i = Math.floor(Math.random() * (41)); // Randomize JSON items
 
           // Variables referencing JSON feed key/value pairs
           currentQuote = json[i].quote;
