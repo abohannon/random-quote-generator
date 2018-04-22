@@ -24,18 +24,21 @@ a:link {
   padding:4rem 4rem;
   color:rgb(195, 144, 174);
   border-radius:3px;
+}
 
+.lead {
+  font-size:1.75rem;
 }
 
 .quote-btn {
-  cursor: auto;
+  cursor: pointer;
   background-color:rgb(195, 144, 174);
   color:white;
 }
 
 .fa-twitter-square {
   color:rgb(195, 144, 174);
-  cursor:auto;
+  cursor:pointer;
 }
 
 .button-row {
@@ -49,4 +52,26 @@ a:link {
 
 .footer-name:hover {
   color:rgb(235, 235, 235);
+}
+
+@media (max-width: 600px) {
+  .quote-box {
+    margin-top:2rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+  .quote-author {
+    font-size:.75rem;
+  }
+  .title {
+    font-size:1.6rem;
+  }
+  .quote-btn {
+    font-size:.75rem;
+  }
+  .fa-3x {
+    font-size:2.5rem;
+  }
 }
