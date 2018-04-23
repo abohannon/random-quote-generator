@@ -1,6 +1,7 @@
 body {
   background-color:rgb(195, 144, 174);
   font-family: 'Raleway', sans-serif;
+  /* transition: background-color 1s;  */
 }
 
 footer {
